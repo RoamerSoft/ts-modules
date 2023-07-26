@@ -4,4 +4,8 @@ const getVersion = (): string => {
     return packageInfo.version;
 };
 
-export { getVersion };
+const getName = (): string => {
+    return packageInfo.name;
+};
+
+export { getVersion, getName };
