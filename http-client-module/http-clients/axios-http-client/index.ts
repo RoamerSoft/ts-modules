@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '../../../node_modules/axios';
 import { IsHttpClient } from '../interfaces/is-http-client';
 import { IsHttpResponse } from '../interfaces/is-http-response';
 
