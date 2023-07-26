@@ -1,7 +1,7 @@
-import { version } from '../../../../../package.json';
+import packageInfo from '../../../package.json';
 
 const getVersion = (): string => {
-	return version;
+    return packageInfo.version;
 };
 
 export { getVersion };
